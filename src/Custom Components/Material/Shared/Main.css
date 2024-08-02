@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(14, 18, 34);
+}
+
+div{
+    background-color: aqua;
+}
+
+div:nth-child(2){
+    height: 200px;
+    background-color: rgb(203, 159, 159);
+}
+
+
