@@ -1,0 +1,12 @@
+.main_card_div{
+    border: solid red;
+    border-width: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_card_div>div{
+    height: 40px;
+}
+
+
