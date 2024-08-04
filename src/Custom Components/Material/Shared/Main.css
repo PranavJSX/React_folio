@@ -1,14 +1,15 @@
 body{
-    background-color: rgb(14, 18, 34);
+    background-color: rgb(9, 10, 15);
+    /* background-image: url('../../../Images/stars-1654074_1920.jpg'); */
+    background-size: cover;
+    color: wheat;
 }
 
-div{
-    background-color: aqua;
-}
+
 
 div:nth-child(2){
     height: 200px;
-    background-color: rgb(203, 159, 159);
+    /* background-color: rgb(203, 159, 159); */
 }
 
 

@@ -1,0 +1,26 @@
+.main_outer_journey_grid{
+    background-color: beige;
+    color: rgb(255, 38, 67);
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.main_line{
+    border-left: 2px solid red;
+    min-height: 200px;
+    margin-left: 50%;
+}   
+
+
+.journey_obj_grid_main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+}
+
+.journey_obj_grid_main>div{
+    border: solid red;
+    border-width: 5px;
+}
+

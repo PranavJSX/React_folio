@@ -1,0 +1,48 @@
+span{
+    color: azure;
+}
+
+
+.overall_info_div{
+    margin-top:100px;
+    margin-left:50px;
+    max-width:fit-content;
+    display:flex;
+    flex-direction:row;
+    height: auto;
+    flex: 40% auto;
+}
+
+
+
+.info_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* width: 650px; */
+    height: 300px;
+    /* background-color: rgb(6, 71, 71); */
+    flex-basis: 40%;
+}
+
+
+#info_para{
+    text-align: left;
+    font-family:monospace;
+    font-size: large;
+    width: 600px;
+}
+
+/* .img_div{
+    background-image: url('../../../public/portfolio_profile.PNG');
+    background-repeat: no-repeat;
+} */
+
+.img_div{
+    flex-basis: 20%;
+    /* flex-grow:  */
+}
+
+
+
+

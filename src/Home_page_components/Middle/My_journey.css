@@ -1,0 +1,32 @@
+.my_jorney_top_div{
+    /* height: 200px; */
+    margin-top: 150px;
+    /* background-color: aqua; */
+}
+.image_icon_written{
+    background-image: url('../../../public/icons8-javascript-240.png');
+}
+
+
+.material_icons{
+    background-color: rgb(3, 6, 6);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    font-size: large;
+    color: azure;
+    /* padding-top: 30px; */
+    /* border: snow; */
+    border-width: 2px;
+    border: solid;
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 200,
+    'opsz' 24
+}
+
+.top_fade{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
