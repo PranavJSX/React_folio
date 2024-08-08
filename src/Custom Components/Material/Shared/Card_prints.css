@@ -1,12 +1,40 @@
+
+
 .main_card_div{
-    border: solid red;
-    border-width: 2px;
+    height: 30px;
+    width: 33%;
+    box-sizing: border-box;
+    background-color: rgb(74, 71, 67);
+}
+
+.main_card_div>p{
+    text-align: left;
+}
+
+.main_card_div:hover{
+    /* background-color: azure; */
+    /* color: black; */
+    transition: all 200ms ease-in;
+    transform: scale(1.02);
+    box-shadow: 10px 10px aqua;
+}
+
+.card_buttons{
+    border-radius: 55px;
+    font-size: 22px;
+    background-color: rgb(188, 150, 255);
+    cursor: pointer;
+}
+
+.tech_stack_div{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    height: 100px;
+    gap: 20px;
 }
-
-.main_card_div>div{
-    height: 40px;
+.tech_stack_div>div{
+    height: fit-content;
+    background-color:  rgb(188, 150, 255);
+font-size: small;
 }
-
 

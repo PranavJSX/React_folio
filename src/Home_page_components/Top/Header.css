@@ -6,9 +6,9 @@
     /* margin-top: 50px; */
     display: flex;
     flex-direction: row;
-    /* position: fixed; */
     position: sticky;
-    /* top:0 */
+    position: -webkit-sticky;
+    top: 0; 
 }
 
 .top_nav>button{
