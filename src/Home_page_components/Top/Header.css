@@ -1,27 +1,52 @@
 
 
 .top_nav{
-    background-color:  rgb(9, 10, 15);
+    /* background-color:  rgb(9, 10, 15); */
     height: 60px;
     /* margin-top: 50px; */
     display: flex;
     flex-direction: row;
-    position: sticky;
-    position: -webkit-sticky;
     top: 0; 
+    justify-content: center;
 }
 
 .top_nav>button{
     border: none;
     height: 100%;
-    background-color:rgb(9, 10, 15) ;
-    color: azure;
+    /* background-color:rgb(2, 2, 3) ; */
+    color:black;
+    font-size: 15px;
+    text-decoration: black;
+    background-color:  inherit;
+    font-family:cursive;
 }
 
 .top_nav>button:hover{
-    background-color: rgb(28, 42, 132);
+    background-color: rgb(200, 207, 255);
 }
 
-.top_nav>button:last-child{
-    margin-left : auto;
+
+.dropdown_content{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    
 }
+.dropdown_content>a{
+    float: none;
+    color: black;
+    padding: 12px 12px;
+    display: block;
+    text-align: left;
+}
+
+.dropdown_content>a:hover{
+    background-color: azure;
+}
+
+.multi:hover .dropdown_content{
+    display: block;
+}
+
+

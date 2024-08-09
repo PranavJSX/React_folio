@@ -1,17 +1,26 @@
 .main_outer_journey_grid{
     /* background-color: beige; */
-    color: rgb(255, 128, 128);
+    color: rgb(0, 0, 0);
     width: 1000px;
     height: 800px;
     margin: 0 auto;
+    font-family: cursive;
 }
 
 .main_line{
-    border-left: 2px solid rgb(255, 255, 255);
+    border-left: 2px solid rgb(250, 0, 0);
     min-height: 150px; 
     margin-left: 0%;
 }   
 
+
+.dancing-script-discrfont {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 440;
+  font-style: normal;
+  font-size: 25px;
+}
 
 .journey_obj_grid_main{
     display: grid;

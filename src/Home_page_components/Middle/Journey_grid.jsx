@@ -43,12 +43,12 @@ way of working .`,
         console.log(element.tech)
         return(<>
             <Fade delay={200}>
-            <p>{element.year}</p>
+            <p className='dancing-script-discrfont'><b>{element.year}</b></p>
                 <div className='journey_obj_grid_main'>
-                    <p className='highlight_para'>{element.exp_string}</p>
+                    <p className='highlight_para '>{element.exp_string}</p>
                     <div className='main_line'></div>
                     <p></p>
-                    <p className='highlight_para'>{element.tech}</p>
+                    <p className='highlight_para '>{element.tech}</p>
                 </div>
             </Fade>
             </>

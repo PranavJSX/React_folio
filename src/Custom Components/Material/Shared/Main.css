@@ -1,10 +1,13 @@
 body{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(219, 250, 255);
     /* background-image: url('../../../Images/stars-1654074_1920.jpg'); */
     background-size: cover;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
+:root{
+    --class1red: rgb(230, 98, 98);
+}
 
 
 div:nth-child(2){
@@ -13,7 +16,18 @@ div:nth-child(2){
 }
 
 .myprojects_div{
-    margin-top: 400px;
+    margin-top: 500px;
 }
 
+.topic_display{
+    font: bold;
+    font-size: 30px;
+    margin-left: 10px;
+    align-self: start;
+    color: rgb(243, 56, 56);
+}
 
+myprojects_div>span{
+    margin-left: 10px;
+    position: relative;
+}
