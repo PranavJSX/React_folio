@@ -5,7 +5,7 @@ import './Basic_info.css'
 
 export const Basic_info = () => {
 
-  let intro = `Hi my name is Pranav ,`;
+  let intro = `Hi, My name is Pranav `;
     let info_string = `Welcome to my personal portfolio Developer and QA Automation engineer executing problem solving-through programming and
 Technologies.Very passionate about building applications which are scalable and interactive while
 learning new technologies every day.`

@@ -1,18 +1,32 @@
 body{
     background-color: rgb(219, 250, 255);
+    /* background-image: var(--back_gradient); */
     /* background-image: url('../../../Images/stars-1654074_1920.jpg'); */
     background-size: cover;
     color: rgb(0, 0, 0);
+    /* background-image: linear-gradient(rgb(131, 255, 255),black); */
+    height: 780px;
+
 }
 
 :root{
     --class1red: rgb(230, 98, 98);
+    /* --class1red: rgb(253, 204, 183); */
+}
+
+:root{
+    --back_gradient:linear-gradient(
+        90deg,
+        rgb(219, 250, 255),
+        rgb(234, 223, 240),
+        rgb(219, 250, 255),
+        rgb(253, 204, 183)
+    )
 }
 
 
 div:nth-child(2){
     height: 200px;
-    /* background-color: rgb(203, 159, 159); */
 }
 
 .myprojects_div{

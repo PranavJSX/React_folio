@@ -3,6 +3,8 @@ import { Card_prints } from '../../Custom Components/Material/Shared/Card_prints
 import './Projects.css'
 
 export const Projects = () => {
+
+
     const projects_obj_arr=[{
         title:'Password Manager',
         details:`Developed a web based Password manager tool to store passwords for different purposes with

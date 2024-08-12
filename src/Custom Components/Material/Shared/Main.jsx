@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Main.css'
 import { Header } from '../../../Home_page_components/Top/Header'
 import { Basic_info } from '../../../Home_page_components/Middle/Basic_info'
@@ -7,7 +7,9 @@ import { Projects } from '../../../Home_page_components/Middle/Projects'
 import {Footer} from '../../../../src/Home_page_components/Bottom/Footer'
 
 export const Main = () => {
+
     return <>
+    {/* <button onClick=}>CLick me to go the bottom</button> */}
     <div><Header/></div>
     <div><Basic_info/></div>
     <div><My_journey/></div>

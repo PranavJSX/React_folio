@@ -21,7 +21,7 @@ span{
     flex-direction: column;
     justify-content: flex-start;
     /* width: 650px; */
-    height: 300px;
+    height: 350px;
     /* background-color: rgb(6, 71, 71); */
     flex-basis: 40%;
     margin-left: 140px;
@@ -44,7 +44,7 @@ span{
 
 .hi_text{
     text-align: left;
-    font-size: 40px;
+    font-size: 65px;
     font-family: cursive;
     color: rgb(254, 245, 255);
 }

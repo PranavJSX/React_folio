@@ -1,4 +1,4 @@
-
+    
 
 .top_nav{
     /* background-color:  rgb(9, 10, 15); */
@@ -21,32 +21,52 @@
     font-family:cursive;
 }
 
+.split{
+    border: none;
+    height: 100%;
+    /* background-color:rgb(2, 2, 3) ; */
+    color:black;
+    font-size: 15px;
+    text-decoration: black;
+    background-color:  inherit;
+    font-family:cursive;
+}
+
+.split:hover{
+    background-color: rgb(200, 207, 255);
+    cursor: pointer;   
+}
 .top_nav>button:hover{
     background-color: rgb(200, 207, 255);
+    cursor: pointer;
 }
 
-
-.dropdown_content{
-    display: none;
-    position: absolute;
-    min-width: 160px;
-    z-index: 1;
-    
+.dropdown_menu{
+    position: relative;
+    background-color: var(--class1red);
+    max-height: 70px;
+    display: flex;  
+    opacity: 0;
+    flex-direction: column;
+    transition: all 0.5s;
+    pointer-events: none;
 }
-.dropdown_content>a{
-    float: none;
-    color: black;
-    padding: 12px 12px;
-    display: block;
+.dropdown_menu>a{
     text-align: left;
 }
 
-.dropdown_content>a:hover{
-    background-color: azure;
+.dropdown_menu>a:hover{
+    
+    text-decoration: underline;
+    /* background-color: azure; */
 }
 
-.multi:hover .dropdown_content{
-    display: block;
+.dropdown_menu>a>span{
+    text-decoration: none;
+}
+
+.linked_in_span{
+    background-image: url('../../../public/linkedin.png');
 }
 
 

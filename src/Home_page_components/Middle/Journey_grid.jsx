@@ -15,6 +15,7 @@ export const Journey_grid = () => {
         Coordinated with a team to execute these tasks with also gaining experience with the agile
 way of working .`,
         tech:`Java, SQL, Python Pandas, React JS, Dialogflow`,
+        org:'High Radius Corporations'
     },{
          year:'2021',
         exp_string:`Managed automation scripts which was automated using jenkins to perform regression
@@ -22,6 +23,7 @@ way of working .`,
         Executed the Smoke and regression scripts to reduce the overall time taken for execution by
         creating different timelines for the runs which reduced the total time by 50%`,
         tech:'JS ,JAVA, HTML and CSS, JUnit, Postman API, Jenkins, DB2, Mainframe',
+        org:'Wipro Technologies'
         },
         {
             year:'2022',
@@ -29,13 +31,17 @@ way of working .`,
            related to frontend end to end framework, building understanding of the frontend systems
            and how they are coupled`,
            tech:'JS ,JAVA, HTML and CSS, JUnit ,Playwright',
-           },
+            org:'Wipro Technologies'
+        }
+           ,
+
          { year:'2023',
            exp_string:`Continued my work for the client while building applications and projects
            in JS , Python-flask , react , Selenium , mostly frontend out of the grit to build things. 
            Built MERN applications using server side rendering from Node and Express.`,
            tech:'JS , React , Python , Node , Express.JS , UI design ',
-           }
+           org:'Wipro Technologies',   
+        }
         ]
 
     const [Count,setCount] = useState(my_journey_obj.length)
@@ -46,7 +52,9 @@ way of working .`,
             <p className='dancing-script-discrfont'><b>{element.year}</b></p>
                 <div className='journey_obj_grid_main'>
                     <p className='highlight_para '>{element.exp_string}</p>
-                    <div className='main_line'></div>
+                    <div className='main_line'>
+                        <p className='org_p'><span>Org : {element.org}</span></p>
+                    </div>
                     <p></p>
                     <p className='highlight_para '>{element.tech}</p>
                 </div>
