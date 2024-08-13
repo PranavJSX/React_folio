@@ -1,46 +1,77 @@
-.main_outer_journey_grid{
-    /* background-color: beige; */
-    color: rgb(0, 0, 0);
-    width: 1000px;
-    height: 800px;
-    margin: 0 auto;
-    font-family: cursive;
-}
-
-.main_line{
-    border-left: 2px solid rgb(250, 0, 0);
-    min-height: 150px; 
-    margin-left: 0%;
-}   
-
-
-.dancing-script-discrfont {
-  font-family: "Dancing Script", cursive;
-  font-optical-sizing: auto;
-  font-weight: 440;
-  font-style: normal;
-  font-size: 25px;
-}
-
-.journey_obj_grid_main{
+.top_exp_grid{
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 50% auto;
+    gap: 5px;
+    margin: 10px ;
+    height: 100%;
+    /* background-image: linear-gradient(to right, #434343 0%, black 100%); */
+}
+
+
+.basic_info_grid{
+    /* background-color: azure; */
+    display: grid;
+    grid-template-columns: auto auto;
+    gap :10px;
+    grid-template-rows: auto auto;
+}
+
+.basic_info_grid>div{
+    background-color: rgb(25, 24, 24);
+    /* border: 2px solid black; */
+    height: 305px;
+    width: 350px;
+    overflow:auto;
+}
+.basic_info_grid>div:hover{
+    box-shadow: rgb(68, 0, 93) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.data_spans>h3{
+    margin-top: 25%;
+    color: rgb(225, 230, 234);
+    font-size: 25px;
+}
+
+.data_spans{
+    color: rgb(107, 102, 102);
+    font-size: 15px;
+}
+
+.exp_info_grid{
+    display: grid;
+    gap: 10px;
     grid-template-rows: 50% 50%;
-    margin-top: 0px;
+    min-height: 100%;
 }
 
-
-.highlight_para{
-    text-align: left;
-    padding: 6px;
-    /* border: solid rgb(255, 172, 172); */
-    /* border-width: 1px; */
+.exp_info_grid>div{
+    background-color: rgb(25, 24, 24);
+    height: 100%;
 }
 
+.year_heading{
+    font-size: 30px;
+    /* color: */
+    color: rgb(225, 230, 234); 
+    margin-left:-70%;
+    margin-top: 0%;
+}
 
-.org_p>span{
-    position: absolute;
-    left: 51%;
-    color: rgb(27, 104, 171);
+.exp_data_spans{
+    color: rgb(107, 102, 102);
+}
+
+.exp_info_grid>div:hover{
+    box-shadow: rgb(68, 0, 93) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.year_heading2{
+    font-size: 30px;
+    /* color: */
+    color: rgb(225, 230, 234); 
+    margin-left:-60%;
+    margin-top: 0%;
 }
 

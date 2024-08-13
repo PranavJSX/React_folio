@@ -20,14 +20,14 @@ export const My_journey = () => {
   ]
   return (
     <>
-    <div className='my_jorney_top_div'><h2>My Tech Stack</h2>
+    <div className='my_jorney_top_div'><h1>My Tech Stack</h1>
         </div>
         <div><Flexbox_prints arr={myicons} flexboxstyle='row'
         data_type='data_objects'
         /></div>
         <Fade className='top_fade'
         cascade damping={1.1} delay={150}
-        ><h1>My Never-ending Story</h1>
+        >
         </Fade>
         <Journey_grid/>
         </>

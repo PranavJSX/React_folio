@@ -1,12 +1,13 @@
 
 .flip_card{
-    /* background-color: black; */
-    background-color: var(--class1red);
+    background-image: linear-gradient(to right, #ff758c 0%, #ff7eb3 100%);
+    /* background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%); */
     color: azure;
     border-radius: 20px;
     text-align: left;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 10px 5px;
+    
 }
 
 
@@ -15,18 +16,15 @@
     box-sizing: border-box;
     background-color: rgb(200, 207, 255);
     color: rgb(0, 0, 0);
-
     /* adding to flip the card */
     position: relative;
     transition: transform 0.6s;
     transform-style: preserve-3d;
     background-color: 100%;
-    color: azure;
 }
 
 .flip_card:hover .main_card_div{
     transform: rotateY(180deg);
-    /* box-shadow: 20px red; */
 }
 
 .main_card_div>p{
@@ -46,7 +44,7 @@
 }
 .tech_stack_div>div{
     height: fit-content;
-    background-color:  rgb(0, 0, 0);
+    background-color:  azure;
     font-size: small;
     padding:5px 5px;
     border-radius: 6px;
@@ -85,7 +83,7 @@
     color: rgb(0, 0, 0);
     text-transform: uppercase;
     text-decoration: none;
-    border: 2px solid purple;
+    border: 2px solid var(--class1red);
     padding: 10px 20px;
     font-size: 12px;
     font-weight: bold;
@@ -96,8 +94,9 @@
   }
   
   .btn:hover {
-    color: white;
     cursor: pointer;
+    background-color: black;
+    color:azure
   }
   
   .btn::before {
@@ -108,7 +107,6 @@
     top: 0;
     left: -40px;
     transform: skewX(45deg);
-    background-color: purple;
     z-index: -1;
     transition: all 1s;
   }

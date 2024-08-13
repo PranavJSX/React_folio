@@ -9,7 +9,7 @@
     justify-content: space-evenly;
     gap: 10px;
     flex-wrap: wrap;
-    margin-top: 50px;
+    /* margin-top: -50px; */
 }
 
 .project_div>div{

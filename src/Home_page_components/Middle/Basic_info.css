@@ -12,8 +12,15 @@ span{
     height: auto;
     flex: 40% auto;;
     background-color: var(--class1red);
+    border-radius: 15px;
+    transition: ease ;
+    transition-delay: 10ms;
+    background: linear-gradient(43deg, rgb(65, 88, 208) 0%, rgb(200, 80, 192) 46%, rgb(255, 204, 112) 100%);
 }
 
+.overall_info_div:hover{
+    opacity: 1;
+}
 
 
 .info_div{
@@ -45,6 +52,6 @@ span{
 .hi_text{
     text-align: left;
     font-size: 65px;
-    font-family: cursive;
+    font-family: monospace;
     color: rgb(254, 245, 255);
 }

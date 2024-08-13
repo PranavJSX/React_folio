@@ -1,9 +1,9 @@
 body{
-    background-color: rgb(219, 250, 255);
+    background-color: rgb(29, 32, 33);
     /* background-image: var(--back_gradient); */
     /* background-image: url('../../../Images/stars-1654074_1920.jpg'); */
     background-size: cover;
-    color: rgb(0, 0, 0);
+    color: azure;
     /* background-image: linear-gradient(rgb(131, 255, 255),black); */
     height: 780px;
 
@@ -21,7 +21,7 @@ body{
         rgb(234, 223, 240),
         rgb(219, 250, 255),
         rgb(253, 204, 183)
-    )
+    );
 }
 
 
@@ -30,7 +30,7 @@ div:nth-child(2){
 }
 
 .myprojects_div{
-    margin-top: 500px;
+    margin-top: 50px;
 }
 
 .topic_display{

@@ -7,66 +7,49 @@
     display: flex;
     flex-direction: row;
     top: 0; 
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .top_nav>button{
     border: none;
     height: 100%;
     /* background-color:rgb(2, 2, 3) ; */
-    color:black;
-    font-size: 15px;
-    text-decoration: black;
-    background-color:  inherit;
-    font-family:cursive;
-}
-
-.split{
-    border: none;
-    height: 100%;
-    /* background-color:rgb(2, 2, 3) ; */
-    color:black;
-    font-size: 15px;
-    text-decoration: black;
-    background-color:  inherit;
-    font-family:cursive;
-}
-
-.split:hover{
-    background-color: rgb(200, 207, 255);
-    cursor: pointer;   
-}
-.top_nav>button:hover{
-    background-color: rgb(200, 207, 255);
-    cursor: pointer;
-}
-
-.dropdown_menu{
-    position: relative;
-    background-color: var(--class1red);
-    max-height: 70px;
-    display: flex;  
-    opacity: 0;
-    flex-direction: column;
-    transition: all 0.5s;
-    pointer-events: none;
-}
-.dropdown_menu>a{
-    text-align: left;
-}
-
-.dropdown_menu>a:hover{
+    color:azure;
     
+    /* color: rgb(116, 116, 255); */
+    font-size: 15px;
+    text-decoration: black;
+    background-color:  inherit;
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 10px;
+}
+
+
+.dropdown{
+    position: absolute;
+    left: 5px;
+    top : 10px;
+    color: azure;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+.dropdown>a{
+    color: azure;
+}
+
+.top_nav>button:hover{
+    cursor: pointer;
     text-decoration: underline;
-    /* background-color: azure; */
+    transition: all 1.2ms;
+    /* margin-top: 5px; */
 }
 
-.dropdown_menu>a>span{
-    text-decoration: none;
+.material_icons_header{
+    height: 40px;
+    width: 50px;
+    color: rgb(116, 116, 255);
+    /* background-color: rgb(255, 9, 9); */
 }
-
-.linked_in_span{
-    background-image: url('../../../public/linkedin.png');
-}
-
-

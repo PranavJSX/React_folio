@@ -1,0 +1,37 @@
+.footer_main_div{
+    /* background-color: black;  */
+    /* margin-top: 400px; */
+    position: relative;
+    bottom: -580px;
+    width: 100%;
+    color: var(--class1red);
+    text-align: left;
+}
+.footer_main_div>span   {
+    color: var(--class1red);
+}
+
+
+.dancing_script_cursive {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+}
+
+.jump_to_top_button{
+  position: absolute;
+  right: 49%;
+  height: 100%;
+  border: none;
+  font-size: 20px;;
+  color: var(--class1red);
+  background-color: inherit;
+}
+
+.jump_to_top_button:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  font: italic;
+}
