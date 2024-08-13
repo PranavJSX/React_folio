@@ -15,7 +15,7 @@ export const Journey_grid = () => {
         Coordinated with a team to execute these tasks with also gaining experience with the agile
 way of working .`,
         tech:`Java, SQL, Python Pandas, React JS, Dialogflow`,
-        org:'High Radius Corporations'
+        org:'High Radius Corporations(Intern)'
     },{
          year:'2021',
         exp_string:`Managed automation scripts which was automated using jenkins to perform regression

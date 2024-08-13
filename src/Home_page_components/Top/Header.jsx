@@ -34,8 +34,8 @@ export const Header=()=>{
         <button className="split" onMouseEnter={show_drop_menu} onMouseLeave={hide_drop_menu}>CONTACT</button>
         <div className="dropdown_menu" onMouseEnter={drop_menu_entered_handler} onMouseLeave={drop_menu_exit_handler}>
             <a href="https://www.linkedin.com/in/pranav-ojha-14007a1a9" target="_blank"><div className="linked_in_span">Linked In</div></a>
-            <a href="www.google.co.in" >Github</a>
-            <a href="www.google.co.in" >Link1</a>
+            <a href="https://github.com/PranavJSX" target="_blank"  > <div>Github</div></a>
+            <a href="mailto: ojhapranav.1999@gmail.com" >EMAIL</a>
         </div> 
         </div>
         
