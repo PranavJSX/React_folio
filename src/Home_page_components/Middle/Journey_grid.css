@@ -3,9 +3,13 @@
     grid-template-columns: 50% auto;
     gap: 5px;
     margin: 10px ;
-    height: 100%;
+    height: fit-content;
+    background: radial-gradient(#631181, rgb(29, 32, 33),rgb(29, 32, 33));
     /* background-image: linear-gradient(to right, #434343 0%, black 100%); */
+    overflow: hidden;
 }
+
+
 
 
 .basic_info_grid{
@@ -21,10 +25,13 @@
     /* border: 2px solid black; */
     height: 305px;
     width: 350px;
-    overflow:auto;
+    overflow:hidden;
 }
+
+
 .basic_info_grid>div:hover{
-    box-shadow: rgb(68, 0, 93) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    /* box-shadow: rgb(68, 0, 93) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+
 }
 
 .data_spans>h3{
@@ -40,14 +47,14 @@
 
 .exp_info_grid{
     display: grid;
-    gap: 10px;
-    grid-template-rows: 50% 50%;
-    min-height: 100%;
+    /* grid-template-columns: auto auto; */
+    gap :10px;
+    grid-template-rows: auto auto;
 }
 
 .exp_info_grid>div{
     background-color: rgb(25, 24, 24);
-    height: 100%;
+    height: 305px;
 }
 
 .year_heading{
@@ -63,7 +70,7 @@
 }
 
 .exp_info_grid>div:hover{
-    box-shadow: rgb(68, 0, 93) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    /* box-shadow: rgb(68, 0, 93) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
 
 }
 
@@ -73,5 +80,26 @@
     color: rgb(225, 230, 234); 
     margin-left:-60%;
     margin-top: 0%;
+}
+
+
+.hidden_left{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1200ms;
+}
+
+.hidden_right{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(+100%);
+    transition: all 1200ms;
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
 }
 

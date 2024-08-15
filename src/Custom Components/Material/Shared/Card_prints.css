@@ -1,116 +1,60 @@
 
-.flip_card{
-    background-image: linear-gradient(to right, #ff758c 0%, #ff7eb3 100%);
-    /* background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%); */
-    color: azure;
-    border-radius: 20px;
-    text-align: left;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 10px 5px;
-    
-}
-
-
 .main_card_div{
-    /* height: 30px; */
-    box-sizing: border-box;
-    background-color: rgb(200, 207, 255);
-    color: rgb(0, 0, 0);
-    /* adding to flip the card */
-    position: relative;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-    background-color: 100%;
-}
-
-.flip_card:hover .main_card_div{
-    transform: rotateY(180deg);
-}
-
-.main_card_div>p{
-    text-align: left;
-    padding:4px 4px;
-}
- /* adding to flip the card */
-
-
-.tech_stack_div{
-    display: flex;
-    flex-direction: column;
-    height: 100px;
-    margin: 0% auto;
-    gap: 20px;
-    margin-top: 20px;
-}
-.tech_stack_div>div{
-    height: fit-content;
-    background-color:  azure;
-    font-size: small;
-    padding:5px 5px;
-    border-radius: 6px;
-    width: fit-content;
-    margin: 0 auto;
-    font-size: 20px;
-}
-
-.flip_card_front , .flip_card_back{
-    position: absolute;
     width: 100%;
+    min-height: 400px;
+}
+
+.separate_project_div{
     height: 100%;
-    -webkit-backface-visibility:hidden ;
-    backface-visibility: hidden;
+    display: grid;
+    grid-template-columns:10% 32% 10% auto ;
+    /* background-color: aqua; */
+    gap:20px;
 }
 
-.flip_card_back{
-    transform: rotateY(180deg);
+
+
+.separate_project_div>div{
+    min-height: 100%;
+    background-color: rgb(25, 23, 23);
+}
+
+.block{
+    margin: 0 18%;
+    width: 100px;
+}
+
+.project_description_block{
+    margin-right: 20px;
+}
+
+.tech_stack_print{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 10px;
+}
+
+.tech_stack_print>p , .project_description_block>a>button{
+    background-color: crimson;
+    padding: 2px 2px; 
+    border-radius: 5px;  
 }
 
 
-.hidden{
-    opacity: 0;
-    filter: blur(5px);
-    transform: translateX(-100%);
-    transition: all 1.2s;
+.project_description_block>p ,.project_description_block>h2{
+    text-align: left;
+    margin-left: 10px;
 }
 
-.show{
-    opacity: 1;
-    filter: blur(0);
-    transform: translateX(0);
+.project_description_block>p{
+    
+    margin-top: 50px; 
 }
 
-.btn {
-    color: rgb(0, 0, 0);
-    text-transform: uppercase;
-    text-decoration: none;
-    border: 2px solid var(--class1red);
-    padding: 10px 20px;
-    font-size: 12px;
-    font-weight: bold;
-    background: transparent;
-    position: relative;
-    transition: all 1s;
-    overflow: hidden;
-  }
-  
-  .btn:hover {
+.project_description_block>a>button{
+    margin-left: -84%;
     cursor: pointer;
-    background-color: black;
-    color:azure
-  }
-  
-  .btn::before {
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 0%;
-    top: 0;
-    left: -40px;
-    transform: skewX(45deg);
-    z-index: -1;
-    transition: all 1s;
-  }
-  
-  .btn:hover::before {
-    width: 160%;
-  }
+    color: azure;
+}
+
