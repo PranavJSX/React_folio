@@ -1,0 +1,12 @@
+
+
+.down_arrow{
+    background-color: inherit;
+    border: none;
+    scale: 2.5;
+    color: inherit;
+}
+
+.down_arrow:hover{
+    cursor: pointer;
+}
