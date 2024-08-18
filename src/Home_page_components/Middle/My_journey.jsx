@@ -8,8 +8,12 @@ import { SiCsswizardry } from "react-icons/si";
 import { IoLogoReact } from "react-icons/io5";
 import { FaGitAlt } from "react-icons/fa";
 import { Journey_grid } from './Journey_grid';
+import { Scroll_to_button } from '../../Custom Components/Material/Shared/Scroll_to_button';
+
 
 export const My_journey = () => {
+
+
 
   const myicons=[
     <DiJavascript className='material_icons'/>,
@@ -21,13 +25,15 @@ export const My_journey = () => {
   return (
     <>
     <div className='my_jorney_top_div'><h1>My Tech Stack</h1>
-        </div>
-        <div><Flexbox_prints arr={myicons} flexboxstyle='row'
+     </div>
+        <div className='icons_printer'><Flexbox_prints arr={myicons} flexboxstyle='row'
         data_type='data_objects'
-        /></div>
+        /> 
+        <div className='down_arrow_div'><Scroll_to_button jump_to_id = 'experience_header'/></div></div>
         <Fade className='top_fade'
         cascade damping={1.1} delay={150}
         >
+          {console.log()}
         </Fade>
         <Journey_grid/>
         </>

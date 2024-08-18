@@ -29,3 +29,14 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+.icons_printer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.down_arrow_div{
+    position: absolute;
+    right: 35px;
+}

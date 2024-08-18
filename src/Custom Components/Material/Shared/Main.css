@@ -29,7 +29,7 @@ div:nth-child(2){
     height: 200px;
 }
 
-.myprojects_div{
+#myprojects_div{
     margin-top: 50px;
 }
 
@@ -38,10 +38,16 @@ div:nth-child(2){
     font-size: 30px;
     margin-left: 10px;
     align-self: start;
-    color: rgb(243, 56, 56);
+    color: rgb(107, 102, 102);
 }
 
-myprojects_div>span{
+#myprojects_div>span{
     margin-left: 10px;
     position: relative;
+}
+
+.to_project_arrow{
+    position: absolute;
+    right: 49.6%;
+    color: azure;
 }
