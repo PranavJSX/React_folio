@@ -5,7 +5,7 @@ import { Flexbox_prints } from '../../Custom Components/Material/Shared/Flexbox_
 import { DiJavascript } from "react-icons/di";
 import { TbFileTypeHtml } from "react-icons/tb";
 import { SiCsswizardry } from "react-icons/si";
-import { IoLogoReact } from "react-icons/io5";
+// import { IoLogoReact } from "react-icons/io5";
 import { FaGitAlt } from "react-icons/fa";
 import { Journey_grid } from './Journey_grid';
 import { Scroll_to_button } from '../../Custom Components/Material/Shared/Scroll_to_button';
@@ -19,7 +19,7 @@ export const My_journey = () => {
     <DiJavascript className='material_icons'/>,
     <TbFileTypeHtml className='material_icons'/>,
     <SiCsswizardry className='material_icons'/>,
-    <IoLogoReact className='material_icons'/>,
+    // <IoLogoReact className='material_icons'/>,
     <FaGitAlt className='material_icons'/>
   ]
   return (
@@ -33,7 +33,6 @@ export const My_journey = () => {
         <Fade className='top_fade'
         cascade damping={1.1} delay={150}
         >
-          {console.log()}
         </Fade>
         <Journey_grid/>
         </>
