@@ -68,7 +68,6 @@ export const Journey_grid = () => {
                 <div><span className='exp_data_spans'><h3 className='year_heading2'>{my_journey_obj[1].year}</h3><h3>{my_journey_obj[1].tech}</h3></span></div>
                 <div><span className='exp_data_spans'><h2>{my_journey_obj[1].org}</h2></span></div></Fade></div>
             </div>
-            
             </div>}
         </>
 }

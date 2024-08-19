@@ -4,23 +4,13 @@ span{
 
 
 .overall_info_div{
-    margin-top:100px;
-    margin-left:50px;
     max-width:fit-content;
-    display:flex;
-    flex-direction:row;
-    height: auto;
-    flex: 40% auto;;
-    background-color: var(--class1red);
-    border-radius: 15px;
-    transition: ease ;
-    transition-delay: 10ms;
-    background: linear-gradient(43deg, rgb(65, 88, 208) 0%, rgb(200, 80, 192) 46%, rgb(255, 204, 112) 100%);
+    /* flex: ;; */
+    background-image: linear-gradient(90deg, #a6c0fe 0%, #f68084 100%);
+    width: 100%;
+    min-height: 700px;
 }
 
-.overall_info_div:hover{
-    opacity: 1;
-}
 
 
 .info_div{
@@ -29,10 +19,9 @@ span{
     justify-content: flex-start;
     /* width: 650px; */
     height: 350px;
-    /* background-color: rgb(6, 71, 71); */
-    flex-basis: 40%;
-    margin-left: 140px;
-    margin-top:50px
+    /* margin-left: 380px; */
+    margin-top:50px;
+    /* overflow: hidden; */
 }
 
 
@@ -40,7 +29,14 @@ span{
     text-align: left;
     font-family:monospace;
     font-size: 20px;
-    width: 600px;
+    width: 70%;
+    padding-top: 50px;
+    margin-left: 20px;
+    color: rgb(79, 79, 79);
+}
+
+#info_para>*{
+    /* overflow: hidden; */
 }
 
 .img_div{
@@ -50,8 +46,10 @@ span{
 
 
 .hi_text{
-    text-align: left;
-    font-size: 65px;
+    align-self: flex-start;
+    margin-left: 20px;
+    font-size: 35px;
     font-family: monospace;
-    color: rgb(254, 245, 255);
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
 }
