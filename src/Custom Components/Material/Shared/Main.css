@@ -36,8 +36,6 @@ div:nth-child(2){
 .topic_display{
     font: bold;
     font-size: 30px;
-    margin-left: 10px;
-    align-self: start;
     color: rgb(107, 102, 102);
 }
 
@@ -50,4 +48,8 @@ div:nth-child(2){
     position: absolute;
     right: 49.6%;
     color: azure;
+}
+
+.basic_info_div{
+    margin-top: -50px;
 }

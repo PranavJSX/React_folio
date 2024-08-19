@@ -12,7 +12,7 @@ export const Main = () => {
     return <>
     {/* <button onClick=}>CLick me to go the bottom</button> */}
     <div><Header/></div>
-    <div><Basic_info/></div>
+    <div className='basic_info_div'><Basic_info/></div>
     <div><My_journey/></div>
     <span className='to_project_arrow'><Scroll_to_button jump_to_id = 'myprojects_div'/></span>
     <div id ='myprojects_div'><span className='topic_display'>RECENT WORK</span><Projects/></div>
