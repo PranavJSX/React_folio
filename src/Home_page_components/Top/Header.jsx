@@ -18,9 +18,8 @@ export const Header=()=>{
             </div>
         <button onClick={()=>{document.querySelector('.topic_display').scrollIntoView({behavior:"smooth"},true);
             }}>PROJECTS</button>
-        <button onClick={()=>{document.querySelector('#experience_header').scrollIntoView({behavior:"smooth"},true);
+        <button className = "journey_button" onClick={()=>{document.querySelector('#experience_header').scrollIntoView({behavior:"smooth"},true);
             }}>JOURNEY</button>
-        {/* <div className="multi"> */}
         
     </div>
     </>

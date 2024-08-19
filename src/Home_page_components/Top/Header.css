@@ -8,7 +8,11 @@
     flex-direction: row;
     top: 0; 
     justify-content: flex-end;
+    width: 100%;
+    overflow: hidden;
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);    
 }
+
 
 .top_nav>button{
     border: none;
@@ -22,7 +26,6 @@
     background-color:  inherit;
     
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    margin-right: 10px;
 }
 
 
@@ -35,6 +38,7 @@
     flex-direction: row;
     justify-content: space-between;
     gap: 10px;
+    overflow: hidden;
 }
 .dropdown>a{
     color: azure;
@@ -50,6 +54,7 @@
 .material_icons_header{
     height: 40px;
     width: 50px;
-    color: rgb(116, 116, 255);
+    color: rgb(0, 0, 0);
     /* background-color: rgb(255, 9, 9); */
 }
+
