@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import './Card_prints.css'
-import {AnimatePresence ,motion, inView, progress, useScroll, useMotionValueEvent, useInView, useTransform, transform, useMotionValue, useMotionTemplate} from "framer-motion";
+import {motion,  useScroll, useTransform} from "framer-motion";
 
 export const Card_prints = (props) => {
 
@@ -19,7 +19,6 @@ const ref1 = useRef(null);
 
   const x = useTransform(scrollYProgress,[0,1] , [-200 , 0]);
   const y = useTransform(scrollYProgress,[0,1] , [200 , 0]);
-
 
 //   useMotionValueEvent(scrollYProgress,"change",(latest)=>{
 //     if(latest>0){
@@ -47,5 +46,4 @@ return (<motion.div className='main_card_div' ref={ref1}style={{opacity:opacity}
 
   return 
 }
-
 
