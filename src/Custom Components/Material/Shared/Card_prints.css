@@ -52,16 +52,17 @@
 }
 
 .tech_stack_print>p {
-    background-color: rgb(255, 179, 194);
+    background-color: rgb(0, 0, 0);
     padding: 2px 2px; 
     border-radius: 5px;  
-    color: black;
-}
+    color: rgb(255, 255, 255);
+}   
 
 
 .project_description_block>p ,.project_description_block>h2{
     text-align: left;
     margin-left: 10px;
+
 }
 
 .project_description_block>p{

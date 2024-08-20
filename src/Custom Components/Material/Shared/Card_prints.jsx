@@ -4,12 +4,22 @@ import {motion,  useScroll, useTransform} from "framer-motion";
 
 export const Card_prints = (props) => {
 
+
+
+  let card_colors = ['rgb(229, 152, 102) ','rgb(255, 179, 194)','rgb(52, 152, 219)','rgb(195, 155, 211 )'];
+  let x_color = 0;
+
+
+  const increase_x_color = () =>{
+    increase_x_color = increase_x_color + 1;
+  }
 const ref1 = useRef(null);
   let { scrollYProgress } = useScroll({
     target: ref1,
     offset: ["0 1" ,"1.33 1" ]
   });
 
+  
 
   const opacity = useTransform(
     scrollYProgress,
@@ -19,12 +29,6 @@ const ref1 = useRef(null);
 
   const x = useTransform(scrollYProgress,[0,1] , [-200 , 0]);
   const y = useTransform(scrollYProgress,[0,1] , [200 , 0]);
-
-//   useMotionValueEvent(scrollYProgress,"change",(latest)=>{
-//     if(latest>0){
-//     document.querySelector('.main_card_div>div:first-child').style.transform = `translateX(${(1-latest)*100}%)`;
-//     }
-// })
 
 
 return (<motion.div className='main_card_div' ref={ref1}style={{opacity:opacity}}> 
@@ -43,7 +47,7 @@ return (<motion.div className='main_card_div' ref={ref1}style={{opacity:opacity}
       <a href={props.myobj.link} target="_blank"><button>Source Code</button></a>
       </motion.div>
   </motion.div>)
+  
 
-  return 
 }
 
