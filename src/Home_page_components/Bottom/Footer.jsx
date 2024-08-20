@@ -13,6 +13,7 @@ export const Footer = () => {
 
 
       <a href='https://www.google.co.in/' target='_block'>Resume</a>
+      
       </div>
     
     <button className='jump_to_top_button' onClick={()=>{document.querySelector('.top_nav')
@@ -21,6 +22,7 @@ export const Footer = () => {
     
     
     <span className='dancing_script_cursive'>Designed By - Pranav</span>
+
     
   </div>
 
