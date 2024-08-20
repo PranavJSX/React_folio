@@ -19,6 +19,7 @@ const ref1 = useRef(null);
     offset: ["0 1" ,"1.33 1" ]
   });
 
+  let location_string = '';
   
 
   const opacity = useTransform(
@@ -34,7 +35,8 @@ const ref1 = useRef(null);
 return (<motion.div className='main_card_div' ref={ref1}style={{opacity:opacity}}> 
 <motion.div className='separate_project_div' style={{x}}>
     <div className='block'></div>
-    <div className='project_image_div'>Attach your image!</div>        
+    <div className='project_image_div'>{props.myobj.image_location}</div>    
+    
     {/* <div className='block'></div> */}
 </motion.div>
 <motion.div className='project_description_block' style={{y}}>
