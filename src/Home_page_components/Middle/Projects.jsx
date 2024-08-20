@@ -5,35 +5,36 @@ import './Projects.css'
 export const Projects = () => {
 
 
-    const projects_obj_arr=[{
+    const projects_obj_arr=[{title:'Imaging Storage and Location',
+        details:`A complete MERN stack app which allows user to login/signup as per requirement and securely allows
+        them to store their personal images with location with complete map support(user can open google maps and mark
+        the location of the image which is stored in very secure Mongo DB.)`,
+        tech:[`React JS`, `Express`, `Node JS`, 'MongoDB'],
+        link:'https://github.com/PranavJSX/Mern_app.git',
+        image_location:<img src={require('./../../Images/Mern_app_2.PNG')}/>,
+        videos:''
+    },
+    {
         title:'Password Manager',
         details:`Developed a web based Password manager tool to store passwords for different purposes with
         a very secured seamless login and sign up process which reduces the efforts for password
         management.`,
         tech:['Javascript', 'HTML and CSS', 'Firebase database'],
         link:`https://github.com/PranavJSX/Javascript_password_manager`,
+        image_location:<img src={require('./../../Images/Password_manager_2.PNG')}/>,
         videos:''
-    },{title:'Personal Portfolio page in Python :',
-        details:`Build a web based Portfolio page showcasing various Projects where , users can use the
-        contact me page to send an email which reduces efforts to write a separate email .`,
-        tech:[`Python`, `Streamlit`, `Pandas`],
-        link:'https://github.com/PranavJSX/app-2-portfolia.git',
+    },
+    {
+        title:'Budget_Manager',
+        details:`Developed a web based Budget manager tool in which you can store , update your expenses and 
+        earnings along with your investment data , you can add your targets and it predicts whether you are hitting it or not , it can even
+        provide you with your fav stocks data on the fly so you can track your investments .`,
+        tech:['Reach JS', 'Node JS', 'MongoDB'],
+        link:`https://github.com/PranavJSX/Budget_manager.git`,
+        image_location:<img src={require('./../../Images/Budget_tracker_1.PNG')}/>,
         videos:''
-    },{
-        title:'Script to automate the Hotel booking Process :',
-        details:`Developed a Selenium script which books a hotel on a booking website where a user has the
-        option to pick and choose the city resulting in reducing manual efforts`,
-        tech:['Java', 'Selenium'],
-        link:'https://github.com/PranavJSX/Selenium_JAVA_scripttobookahotel.git',
-        videos:''
-    },{
-        title:'Script to automate the Hotel booking Process :',
-        details:`Developed a Selenium script which books a hotel on a booking website where a user has the
-        option to pick and choose the city resulting in reducing manual efforts`,
-        tech:['Java', 'Selenium'],
-        link:'https://github.com/PranavJSX/Selenium_JAVA_scripttobookahotel.git',
-        videos:''
-    }]
+    }
+]
 
   return (
     <div className='project_div'>
