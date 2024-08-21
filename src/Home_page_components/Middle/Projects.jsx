@@ -29,7 +29,7 @@ export const Projects = () => {
         details:`Developed a web based Budget manager tool in which you can store , update your expenses and 
         earnings along with your investment data , you can add your targets and it predicts whether you are hitting it or not , it can even
         provide you with your fav stocks data on the fly so you can track your investments .`,
-        tech:['Reach JS', 'Node JS', 'MongoDB'],
+        tech:['React JS', 'Node JS', 'MongoDB'],
         link:`https://github.com/PranavJSX/Budget_manager.git`,
         image_location:<img src={require('./../../Images/Budget_tracker_1.PNG')}/>,
         videos:''
