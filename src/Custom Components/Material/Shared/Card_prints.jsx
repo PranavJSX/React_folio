@@ -6,9 +6,6 @@ export const Card_prints = (props) => {
 
 
 
-  let card_colors = ['rgb(229, 152, 102) ','rgb(255, 179, 194)','rgb(52, 152, 219)','rgb(195, 155, 211 )'];
-  let x_color = 0;
-
 
   const increase_x_color = () =>{
     increase_x_color = increase_x_color + 1;
