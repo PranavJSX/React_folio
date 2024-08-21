@@ -11,7 +11,7 @@ export const Projects = () => {
         the location of the image which is stored in very secure Mongo DB.)`,
         tech:[`React JS`, `Express`, `Node JS`, 'MongoDB'],
         link:'https://github.com/PranavJSX/Mern_app.git',
-        image_location:<img src={require('./../../Images/Mern_app_2.PNG')}/>,
+        image_location:<img src={require('./../../Images/budge_manager_updated_collage.PNG')}/>,
         videos:''
     },
     {
