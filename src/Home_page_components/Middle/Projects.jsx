@@ -24,7 +24,7 @@ export const Projects = () => {
         image_location:<img src={require('./../../Images/Password_manager_2.PNG')}/>,
         videos:''
     },
-    {
+    {   
         title:'Budget_Manager',
         details:`Developed a web based Budget manager tool in which you can store , update your expenses and 
         earnings along with your investment data , you can add your targets and it predicts whether you are hitting it or not , it can even
