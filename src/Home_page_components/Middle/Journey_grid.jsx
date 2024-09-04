@@ -31,7 +31,7 @@ export const Journey_grid = () => {
         org:'High Radius Corporations(Intern)'
     },{
         year:'2021-2024',
-        tech:'JS ,JAVA, HTML and CSS, JUnit, API , Jenkins, DB2, Testing Frameworks',
+        tech:'JS , React JS ,JAVA, HTML and CSS, JUnit, API , Jenkins, DB2, Testing Frameworks',
         org:'Wipro Technologies',   
         }
         ];
