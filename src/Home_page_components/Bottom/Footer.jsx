@@ -12,7 +12,7 @@ export const Footer = () => {
 
 
 
-      <a href='https://drive.google.com/file/d/1Karxpvs324cyZqEm_uNzx0T7Nh0mUUpK/view?usp=sharing' target='_block'>Resume</a>
+      <a href='https://drive.google.com/file/d/1gIg4PXSbCISc2lntMHstm7rOeN7llVsn/view?usp=sharing' target='_block'>Resume</a>
       
       </div>
     
