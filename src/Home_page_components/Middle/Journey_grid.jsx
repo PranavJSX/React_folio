@@ -38,8 +38,6 @@ export const Journey_grid = () => {
 
         return<>
         <h1 id='experience_header' style={{color:'rgb(107, 102, 102)',
-        position:'relative',
-        marginLeft:'-85%',
         }}>Experience</h1>
         {<div className='top_exp_grid'>
             <div className='basic_info_grid'>
