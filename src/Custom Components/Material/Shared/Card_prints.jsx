@@ -16,9 +16,6 @@ const ref1 = useRef(null);
     offset: ["0 1" ,"1.33 1" ]
   });
 
-  let location_string = '';
-  
-
   const opacity = useTransform(
     scrollYProgress,
     [0,1],
@@ -34,7 +31,6 @@ return (<motion.div className='main_card_div' ref={ref1}style={{opacity:opacity}
     <div className='block'></div>
     <div className='project_image_div'>{props.myobj.image_location}</div>    
     
-    {/* <div className='block'></div> */}
 </motion.div>
 <motion.div className='project_description_block' style={{y}}>
   
@@ -43,7 +39,7 @@ return (<motion.div className='main_card_div' ref={ref1}style={{opacity:opacity}
       <div className='tech_stack_print'>{props.myobj.tech.map(element => {
         return <p>{element}</p>
       })}</div>
-      <a href={props.myobj.link} target="_blank"><button>Source Code</button></a>
+      <a href={props.myobj.link} target="_blank"><button className='source_code_button'>Source Code</button></a>
       </motion.div>
   </motion.div>)
   
