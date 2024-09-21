@@ -24,7 +24,8 @@
     background-color: rgb(25, 24, 24);
     /* border: 2px solid black; */
     height: 305px;
-    width: 350px;
+    /* width: 350px; */
+    width: 100%;
     overflow:hidden;
 }
 
@@ -36,13 +37,12 @@
 
 .data_spans>h3{
     margin-top: 25%;
-    color: rgb(225, 230, 234);
-    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-size: calc(22px+0.5vw);
 }
 
 .data_spans{
     color: rgb(107, 102, 102);
-    font-size: 15px;
 }
 
 .exp_info_grid{
@@ -88,6 +88,7 @@
     filter: blur(5px);
     transform: translateX(-100%);
     transition: all 1200ms;
+    width: 50%;
 }
 
 .hidden_right{
