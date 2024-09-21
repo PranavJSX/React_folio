@@ -3,14 +3,30 @@
     grid-template-columns: 50% auto;
     gap: 5px;
     margin: 10px ;
-    height: fit-content;
     background: radial-gradient(#631181, rgb(29, 32, 33),rgb(29, 32, 33));
     /* background-image: linear-gradient(to right, #434343 0%, black 100%); */
     overflow: hidden;
+    min-height: 100%;
 }
 
+@media (max-width:600px) {
+    .top_exp_grid{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .exp_info_grid{
+        display: flex;
+        flex-direction: row;
+    }
 
-
+    .exp_info_grid>div{
+        width: 100%;
+        transform: translateX(0%);
+        max-height: 200px;
+    }
+}
 
 .basic_info_grid{
     /* background-color: azure; */
@@ -38,7 +54,7 @@
 .data_spans>h3{
     margin-top: 25%;
     color: rgb(255, 255, 255);
-    font-size: calc(12px+0.5vw);
+    font-size: 1.2vw;
 }
 
 .data_spans{
@@ -57,14 +73,6 @@
     height: 305px;
 }
 
-.year_heading{
-    font-size: 30px;
-    /* color: */
-    color: rgb(225, 230, 234); 
-    margin-left:-70%;
-    margin-top: 0%;
-}
-
 .exp_data_spans{
     color: rgb(107, 102, 102);
 }
@@ -75,11 +83,14 @@
 }
 
 .year_heading2{
-    font-size: 30px;
+    font-size: 1.2vw;;
     /* color: */
     color: rgb(225, 230, 234); 
-    margin-left:-60%;
-    margin-top: 0%;
+    margin-left:-10%;
+}
+
+.exp_data_spans>h2{
+    font-size:2vw;
 }
 
 

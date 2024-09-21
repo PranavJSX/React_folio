@@ -7,6 +7,7 @@ span{
     max-width:fit-content;
     /* flex: ;; */
     background-image: linear-gradient(90deg, #a6c0fe 0%, #f68084 100%);
+    
     width: 100%;
     min-height: 700px;
 }

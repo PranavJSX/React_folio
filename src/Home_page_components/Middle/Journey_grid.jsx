@@ -58,7 +58,7 @@ export const Journey_grid = () => {
             <div className='exp_info_grid'>
                 <div className='exp_grid_sub1 hidden_right'>
                 <Fade>
-                <div><span className='exp_data_spans'><h3 className='year_heading'>{my_journey_obj[0].year}</h3><h3>{my_journey_obj[0].tech}</h3></span></div>
+                <div><span className='exp_data_spans'><h3 className='year_heading2'>{my_journey_obj[0].year}</h3><h3>{my_journey_obj[0].tech}</h3></span></div>
                 <div><span className='exp_data_spans'><h2>{my_journey_obj[0].org}</h2></span></div></Fade>
                 </div>
                 <div className='exp_grid_sub1 hidden_right'>
