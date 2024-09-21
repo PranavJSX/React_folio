@@ -28,7 +28,7 @@ span{
 #info_para{
     text-align: left;
     font-family:monospace;
-    font-size: 20px;
+    font-size: calc(13px + 0.4vw);
     width: 70%;
     padding-top: 50px;
     margin-left: 20px;
