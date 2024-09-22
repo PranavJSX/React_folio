@@ -5,7 +5,7 @@ import './Projects.css'
 export const Projects = () => {
 
 
-    const projects_obj_arr=[{title:'Imaging Storage and Location',
+    const projects_obj_arr=[{title:'Image Storage and Location',
         details:`A complete MERN stack app which allows user to login/signup as per requirement and securely allows
         them to store their personal images with location with complete map support(user can open google maps and mark
         the location of the image which is stored in very secure Mongo DB.)`,

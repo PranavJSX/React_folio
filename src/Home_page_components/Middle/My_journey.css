@@ -41,4 +41,5 @@
 .down_arrow_div{
     position: absolute;
     right: 35px;
+    opacity: 0;
 }

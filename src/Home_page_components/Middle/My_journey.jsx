@@ -29,7 +29,8 @@ export const My_journey = () => {
         <div className='icons_printer'><Flexbox_prints arr={myicons} flexboxstyle='row'
         data_type='data_objects'
         /> 
-        <div className='down_arrow_div'><Scroll_to_button jump_to_id = 'experience_header'/></div></div>
+        {/* <div className='down_arrow_div'><Scroll_to_button jump_to_id = 'experience_header'/></div> */}
+        </div>
         <Fade className='top_fade'
         cascade damping={1.1} delay={150}
         >

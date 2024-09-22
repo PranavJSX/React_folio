@@ -30,7 +30,7 @@ span{
 #info_para{
     text-align: left;
     font-family:monospace;
-    font-size: calc(13px + 0.4vw);
+    font-size: calc(13px + .5vw);
     width: 70%;
     padding-top: 50px;
     margin-left: 20px;
@@ -45,11 +45,18 @@ span{
 .hi_text{
     align-self: flex-start;
     margin-left: 20px;
-    font-size: 35px;
+    font-size: 3vw;
     font-family: monospace;
     color: rgb(0, 0, 0);
     margin-top: 50px;
 }
+
+.satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 
 #my_image_div{
     transform: scale(80%);
