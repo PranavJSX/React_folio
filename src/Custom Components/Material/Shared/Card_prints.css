@@ -106,20 +106,20 @@
 
 @media screen and (max-width:580px) {
     .project_description_block>h2{
-        font-size: 3vw;
+        font-size: 4vw;
     }
     
     .project_description_block>p{
-        font-size: 2vw;
+        font-size: 3vw;
     }
     .source_code_button{
-        font-size: 2vw;
+        font-size: 3vw;
         overflow: visible;
         transform: translateX(20%);
     }
 
     .tech_stack_print>p{
-        font-size: 2vw;
+        font-size: 2.5vw;
         padding: 2%;
     }
     .tech_stack_print{
@@ -139,6 +139,7 @@
     }
     .project_image_div>img{
         width: 100%;
+        height: 100%;
     }
     
     
