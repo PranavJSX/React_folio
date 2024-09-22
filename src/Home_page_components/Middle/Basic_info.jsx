@@ -27,7 +27,7 @@ export const Basic_info = () => {
         <span className='hi_text satisfy-regular'>{intro}</span>
           <span >{<p id='info_para'>{info_string}</p>}</span></div>
           
-        <div id='my_image_div2'></div>
+        {/* <div id='my_image_div2'></div> */}
 
         <div id = 'my_image_div'></div>
         </div></>

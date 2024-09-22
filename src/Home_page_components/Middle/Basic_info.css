@@ -59,7 +59,7 @@ span{
   
 
 #my_image_div{
-    transform: scale(80%);
+    transform: scale(100%);
     width: 100vw;
     background: url('./../../Images/My_animated_pic.svg');
     background-repeat: no-repeat;
