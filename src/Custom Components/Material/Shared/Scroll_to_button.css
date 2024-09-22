@@ -5,6 +5,7 @@
     border: none;
     scale: 2.5;
     color: black;
+    margin-left: 30%;
 }
 
 .down_arrow:hover{
