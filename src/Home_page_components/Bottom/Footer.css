@@ -89,10 +89,10 @@
 
 @media screen and (max-width:580px){
   .footer_main_div{
-    height: fit-content;
-    background-size: 0% 120%;
+    background-size: 100% 120%;
     width: auto;
-    
+    background-image: url('./../../Images/Frame\ 1.svg');
+    margin-bottom: 120px;
   }
 }
 
