@@ -22,15 +22,16 @@ Technologies.Very passionate about building applications which are scalable and 
     // },[current_index,delay,info_string])
    
   return (
+    <>
     <div className='overall_info_div'>
         <div className='info_div'>
         <span className='hi_text'>{intro}</span>
           <span >{<p id='info_para'>{info_string}</p>}</span></div>
           
-        <div className='img_div'>
-          <image src="./src/Images/portfolio_profile.png"/>
-          </div>
-    </div>
+        <div id='my_image_div2'></div>
+
+        <div id = 'my_image_div'></div>
+        </div></>
   )
 }
   

@@ -7,9 +7,10 @@ span{
     max-width:fit-content;
     /* flex: ;; */
     background-image: linear-gradient(90deg, #a6c0fe 0%, #f68084 100%);
-    
+    display: flex;
+    flex-direction: row;
     width: 100%;
-    min-height: 700px;
+    min-height: 800px;
 }
 
 
@@ -40,11 +41,6 @@ span{
     /* overflow: hidden; */
 }
 
-.img_div{
-    flex-basis: 20%;
-    /* flex-grow:  */
-}
-
 
 .hi_text{
     align-self: flex-start;
@@ -53,4 +49,37 @@ span{
     font-family: monospace;
     color: rgb(0, 0, 0);
     margin-top: 50px;
+}
+
+#my_image_div{
+    transform: scale(80%);
+    width: 100vw;
+    background: url('./../../Images/My_animated_pic.svg');
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+@media screen and  (max-width:580px) {
+.overall_info_div{
+    max-width:fit-content;
+    /* flex: ;; */
+    background-image: linear-gradient(90deg, #a6c0fe 0%, #f68084 100%);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+}
+
+
+#my_image_div2{
+    transform: scale(50%);
+    width: 70;
+    /* height: 50vh; */
+    background: url('./../../Images/My_animated_pic\ copy.svg');
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: 5%;
+    overflow: visible;
 }

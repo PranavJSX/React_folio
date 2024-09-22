@@ -9,6 +9,7 @@
     text-align: left;
     background-image: url('./../../Images/Frame\ 1.svg');
     background-size: 100% ;
+    background-repeat: no-repeat;
     overflow: hidden;
     bottom: -200px;
 }
@@ -86,6 +87,12 @@
 }
 
 
-
-
+@media screen and (max-width:580px){
+  .footer_main_div{
+    height: fit-content;
+    background-size: 0% 120%;
+    width: auto;
+    
+  }
+}
 
