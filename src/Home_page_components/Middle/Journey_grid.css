@@ -11,6 +11,7 @@
 
 
 
+
 .basic_info_grid{
     /* background-color: azure; */
     display: grid;
@@ -149,4 +150,10 @@
     .exp_info_grid > div:nth-of-type(1){
         width: 135%;
     }
+    
+#experience_header{
+    /* margin-left: 20px; */
+    margin-top: 90px;
 }
+}
+

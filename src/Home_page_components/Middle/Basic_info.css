@@ -51,6 +51,13 @@ span{
     margin-top: 50px;
 }
 
+@media(max-width:600px) {
+    .hi_text{
+        font-size: 5vw;
+    }
+}
+
+
 .satisfy-regular {
     font-family: "Satisfy", cursive;
     font-weight: 400;
