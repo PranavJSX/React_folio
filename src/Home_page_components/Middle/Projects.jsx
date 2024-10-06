@@ -5,7 +5,9 @@ import './Projects.css'
 export const Projects = () => {
 
 
-    const projects_obj_arr=[{title:'Image Storage and Location',
+    const projects_obj_arr=[
+    {
+        title:'Image Storage and Location',
         details:`A complete MERN stack app which allows user to login/signup as per requirement and securely allows
         them to store their personal images with location with complete map support(user can open google maps and mark
         the location of the image which is stored in very secure Mongo DB.)`,
@@ -33,6 +35,16 @@ export const Projects = () => {
         link:`https://github.com/PranavJSX/Budget_manager.git`,
         image_location:<img src={require('./../../Images/Budget_tracker_1.PNG')}/>,
         videos:''
+    },
+    {   
+        title:'Socket IO Room chat app',
+        details:`Using Socket.IO's abilities to track , emit , braodcast user connects and disconnects , I have created
+        an room chat app where a user or a group of users can chat with each other seamlessly understanding all the 
+        functions of socketio with detailed login and chat app design elements `,
+        tech:['React JS', 'Node JS', 'Express','Socket.IO','Figma'],
+        link:`https://github.com/PranavJSX/1st_chat_app.git`,
+        image_location:<img src={require('./../../Images/socket_app_1.PNG')}/>,
+        videos:''
     }
 ]
 
@@ -44,3 +56,5 @@ export const Projects = () => {
     </div>
   )
 }
+
+

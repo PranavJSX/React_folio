@@ -93,8 +93,8 @@
 
 
 .project_image_div>img{
-    width: 20vw ;
-    height: 40vh;
+    width: 30vw ;
+    height:50vh;;
     display: block;  
 }
 
@@ -144,3 +144,14 @@
     
     
 }
+
+
+
+.project_image_div>img{
+    margin-top: 5vh;
+    /* image-rendering: -webkit-optimize-contrast; */   
+    width: 25vw;
+    height: 35vh;
+}
+
+
