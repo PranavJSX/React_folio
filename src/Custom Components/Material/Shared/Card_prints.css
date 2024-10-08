@@ -104,9 +104,19 @@
 }
 
 
+.project_image_div>img{
+    margin-top: 5vh;
+    /* image-rendering: -webkit-optimize-contrast; */   
+    width: 25vw;
+    height: 35vh;
+}
+
+
+
+
 @media screen and (max-width:580px) {
     .project_description_block>h2{
-        font-size: 4vw;
+        font-size: 6vw;
     }
     
     .project_description_block>p{
@@ -119,7 +129,7 @@
     }
 
     .tech_stack_print>p{
-        font-size: 2.5vw;
+        font-size: 3.5vw;
         padding: 2%;
     }
     .tech_stack_print{
@@ -138,20 +148,12 @@
         width: 100%;
     }
     .project_image_div>img{
-        width: 100%;
-        height: 100%;
+        width: 50vw;
+        height: 30vh;
+        background-color: azure;
     }
     
     
-}
-
-
-
-.project_image_div>img{
-    margin-top: 5vh;
-    /* image-rendering: -webkit-optimize-contrast; */   
-    width: 25vw;
-    height: 35vh;
 }
 
 

@@ -16,6 +16,16 @@ export const Projects = () => {
         image_location:<img src={require('./../../Images/budge_manager_updated_collage.PNG')}/>,
         videos:''
     },
+    {   
+        title:'Socket IO Room chat app',
+        details:`Using Socket.IO's abilities to track , emit , braodcast user connects and disconnects , I have created
+        an room chat app where a user or a group of users can chat with each other seamlessly understanding all the 
+        functions of socketio with detailed login and chat app design elements `,
+        tech:['React JS', 'Node JS', 'Express','Socket.IO','Figma'],
+        link:`https://github.com/PranavJSX/1st_chat_app.git`,
+        image_location:<img src={require('./../../Images/socket_app_1.PNG')}/>,
+        videos:''
+    },
     {
         title:'Password Manager',
         details:`Developed a web based Password manager tool to store passwords for different purposes with
@@ -36,16 +46,7 @@ export const Projects = () => {
         image_location:<img src={require('./../../Images/Budget_tracker_1.PNG')}/>,
         videos:''
     },
-    {   
-        title:'Socket IO Room chat app',
-        details:`Using Socket.IO's abilities to track , emit , braodcast user connects and disconnects , I have created
-        an room chat app where a user or a group of users can chat with each other seamlessly understanding all the 
-        functions of socketio with detailed login and chat app design elements `,
-        tech:['React JS', 'Node JS', 'Express','Socket.IO','Figma'],
-        link:`https://github.com/PranavJSX/1st_chat_app.git`,
-        image_location:<img src={require('./../../Images/socket_app_1.PNG')}/>,
-        videos:''
-    }
+    
 ]
 
   return (

@@ -101,7 +101,7 @@
 
 @media screen and (max-width:580px){
   .footer_main_div{
-    background-size: 100% 120%;
+    background-size: 150% 100%;
     width: auto;
     background-image: url('./../../Images/Frame\ 1.svg');
     margin-bottom: 120px;
